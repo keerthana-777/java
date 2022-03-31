@@ -1,4 +1,4 @@
-package com.javaoop4Interface;
+package com.javaoopInterface;
 
 public interface ITelephone {
 

@@ -1,4 +1,4 @@
-package com.javaoop4Interface;
+package com.javaoopInterface;
 
 public class DeskPhone implements ITelephone {
 
