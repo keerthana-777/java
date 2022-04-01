@@ -1,6 +1,6 @@
 package com.javaoop2;
 
-public class MotherBoard {
+public class MotherBoard implements iFlyable{
 	
 	private String model;
 	private String manufacturer;
@@ -14,8 +14,15 @@ public class MotherBoard {
 		this.cardSlots = cardSlots;
 		this.bios = bios;
 	}
+	public MotherBoard() {
+		this(null, null, 0, 0, null);
+	}
 	public void loadProgram(String programName) {
 		System.out.println("Program " + programName + " is now loading...");
+	}
+	@Override
+	public void fly() {
+		System.out.println("Motherboard flies..");
 	}
 
 }
